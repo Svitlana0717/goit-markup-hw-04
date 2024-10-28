@@ -132,8 +132,10 @@ a {
     text-align: center;
     line-height: 1.07;
     color: #ffffff;
-    padding: 188px;
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
   }
 
   .btn {
@@ -151,6 +153,8 @@ a {
     background: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
   }
 
     .btn:hover,
@@ -180,7 +184,6 @@ a {
   }
 
   .service-list {
-    margin: 24px;
     padding: 120px, 156px;
     display: flex;
     align-items: center;
@@ -198,7 +201,6 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;
   }
@@ -209,7 +211,6 @@ a {
     font-size: 16px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
   }
  /*Team*/
@@ -233,7 +234,6 @@ a {
     text-transform: capitalize;
     margin-bottom: 72px;
     margin-bottom: 72px;
-    padding: 32px 0;
   }
 
   .section-service {
@@ -259,7 +259,6 @@ a {
   .portfolio-list {
     display: flex;
     align-items: center;
-    margin-right: 24px;
     padding: 232px, 156px, 120px, 156px;
     row-gap: 24px;
     column-gap: 48px;
@@ -276,7 +275,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
   }
 
   .team-list {
@@ -290,12 +288,13 @@ a {
   .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
   }
 
   .container-taam {
     padding: 32px 0;
-  }
+    text-align: center;
+    }
 
   .nav-link:hover,
   .nav-link:focus,
