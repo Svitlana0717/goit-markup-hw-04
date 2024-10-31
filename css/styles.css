@@ -389,14 +389,16 @@ ustify-content: center;
     max-width: 264px;
   }
 
+  .madia-container{
+  display: flex;
+  align-items: baseline
+  }
+
   .page-footer {
     background: #2e2f42;
     padding: 100px 0;
   }
 
-  .container-icon {
-    margin-right: 120px;
-  }
 
   .text-social {
 font-weight: 500;
@@ -407,6 +409,10 @@ color: #fff;
 margin-bottom: 16px; 
   }
     
+  .social-madia-container {
+   margin-right: 120px;
+  }
+  
   .media-list {
     display: flex;
     gap: 16px;
@@ -434,7 +440,7 @@ height: 40px;
     a ::focus {
       background-color: #31d0aa;
     }
-    
+
   .logo footer-logo {
     display: inline-block;
     margin-bottom: 16px;
