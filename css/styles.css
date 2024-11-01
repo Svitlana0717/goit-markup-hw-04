@@ -154,6 +154,8 @@ a {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
+    
   }
 
   .section-hero {
@@ -321,6 +323,8 @@ a {
   display: flex;
   align-items: center; 
   justify-content: center; 
+  width: 40px;
+  height: 40px;
 }
 
 a:hover {
@@ -412,6 +416,9 @@ a:focus {
   .container-footer {
     display: flex;
     align-items: baseline;
+    width: 1158px;
+    padding: 0 15;
+    margin: 0 auto;
   }
 
   .container-logo {
