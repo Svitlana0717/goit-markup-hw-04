@@ -155,7 +155,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    
+
   }
 
   .section-hero {
@@ -290,11 +290,6 @@ a {
     text-align: center;
   }
 
-  .container-cosial {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-  }
 
   .social-lis {
     display: flex;
@@ -312,7 +307,6 @@ a {
     display: flex;
     justify-content: center; 
     gap: 24px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
 .social-link {
@@ -325,6 +319,7 @@ a {
   justify-content: center; 
   width: 40px;
   height: 40px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 a:hover {
@@ -423,9 +418,6 @@ a:focus {
 
   .container-logo {
     margin-right: 120px;
-    margin-left: 156px;
-    margin-bottom: 100px;
-    margin-top: 100px;
   }
 
   .social-text{
@@ -455,6 +447,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
 
   .icon-footer {
@@ -467,7 +460,7 @@ a:focus {
     background-color: #31d0aa; 
   }
   
-  a:focus{
+  a:focus {
     background-color: #31d0aa; 
   }
   
