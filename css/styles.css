@@ -290,7 +290,9 @@ a {
     text-align: center;
   }
 
-
+.section-icon{
+  padding: 32px 0;
+}
   .social-lis {
     display: flex;
     justify-content: center;
