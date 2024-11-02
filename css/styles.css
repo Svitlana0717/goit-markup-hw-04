@@ -265,7 +265,7 @@ a {
   }
 
  .container {
-  padding: 32 0;
+  padding: 120 0;
  } 
   .section-team {
     font-family: "Roboto", sans-serif;
@@ -280,8 +280,9 @@ a {
     margin-bottom: 72px;
   }
 
-  .container-team {
-    padding: 32px o;
+  .social-container {
+    padding: 32px 0;
+
   }
 
   .section-service {
