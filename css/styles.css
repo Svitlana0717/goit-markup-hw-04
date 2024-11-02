@@ -155,11 +155,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto;
-    background-image: ('peopleoffice.jpg');
-    background-image: linear-gradient(
-      < rgba(46, 47, 66, 0.7),>
-    )
-
+    background-image: url(./images/peopleoffice.jpg);
   }
 
   .section-hero {
@@ -269,7 +265,7 @@ a {
   }
 
  .container {
-  padding: 120 0;
+  padding: 32 0;
  } 
   .section-team {
     font-family: "Roboto", sans-serif;
