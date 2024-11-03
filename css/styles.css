@@ -343,7 +343,7 @@ a {
   }
 
   .section-team {
-    transform: translateY(0%);
+    transform: translateY(100%);
   }
 
   .portfolio-list {
