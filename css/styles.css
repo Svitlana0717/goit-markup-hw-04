@@ -200,7 +200,6 @@ a {
 
 
   .service {
-    background: #f4f4fd;
     padding: 120px 0;
   }
 
@@ -429,6 +428,7 @@ a {
 
   .page-footer{
      background-color: #2e2f42;
+     padding: 100px 0;
   }
 
   .section-footer {
@@ -506,3 +506,6 @@ a {
     display: inline-block;
     margin-bottom: 16px;
   }
+
+
+  
